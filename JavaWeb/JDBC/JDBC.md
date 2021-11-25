@@ -16,7 +16,7 @@
 >
 > 全称：( Java DataBase Connectivity ) Java 数据库连接
 
-<img src="assets/image-20210725130537815.png" alt="image-20210725130537815" style="zoom:80%;" />
+<img src="https://github.com/Frank-gg/Java-learning-notes/blob/main/JavaWeb/JDBC/assets/image-20210725130537815.png" />
 
 我们开发的同一套Java代码是无法操作不同的关系型数据库，因为每一个关系型数据库的底层实现细节都不一样。如果这样，问题就很大了，在公司中可以在开发阶段使用的是MySQL数据库，而上线时公司最终选用oracle数据库，我们就需要对代码进行大批量修改，这显然并不是我们想看到的。我们要做到的是同一套Java代码操作不同的关系型数据库，而此时sun公司就指定了一套标准接口（JDBC），JDBC中定义了所有操作关系型数据库的规则。众所周知接口是无法直接使用的，我们需要使用接口的实现类，而这套实现类（称之为：驱动）就由各自的数据库厂商给出。
 
