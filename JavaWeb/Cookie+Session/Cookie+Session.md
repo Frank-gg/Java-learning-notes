@@ -515,7 +515,7 @@ HttpSession session = request.getSession();
 
   * 钝化的数据路径为：`项目目录\target\tomcat\work\Tomcat\localhost\项目名称\SESSIONS.ser`
 
-    ![1629440576828](D:\BaiduNetdiskDownload\黑马\javaweb\day11-会话技术\ppt\assets\1629440576828.png)
+    ![1629440576828](assets\1629440576828.png)
 
 * **活化：再次启动服务器后，从文件中加载数据到Session中**
 
